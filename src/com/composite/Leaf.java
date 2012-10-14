@@ -1,5 +1,9 @@
 package com.composite;
-
+/**
+ * Klasa implementująca interfejs Komponent, odpowiedzialna za reprezentację "liścia"
+ * @author obi1988
+ *
+ */
 public class Leaf implements Component {
 	private String name;
 
