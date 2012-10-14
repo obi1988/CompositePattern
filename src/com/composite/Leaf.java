@@ -1,32 +1,26 @@
 package com.composite;
 
-public class Leaf implements Component{
-	 private String name;
-	 
-	 public Leaf(String name){
-	  this.name = name;
-	 }
-	 
-		 
-		 public void print(){
-		  System.out.println("   "+getName());
-		 }
+public class Leaf implements Component {
+	private String name;
 
-		 public String getName() {
-		  return name;
-		 }
+	public Leaf(String name) {
+		this.name = name;
+	}
 
-		 public void setName(String name) {
-		  this.name = name;
-		 }
+	public void print() {
+		System.out.println("   " + getName());
+	}
 
-		public void add(Component c) {
-			
-		}
-		
-		public Component getChild(int i) {
-			return null;
-		}
-		 
-		 
-		}
+	public String getName() {
+		return name;
+	}
+
+	public void add(Component c) {
+
+	}
+
+	public Component getChild(int i) {
+		return null;
+	}
+
+}
